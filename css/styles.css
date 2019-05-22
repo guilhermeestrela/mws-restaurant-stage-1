@@ -290,4 +290,51 @@ nav h1 a {
     margin: 10px 0;
     width: 100%;
   }
+  #breadcrumb {
+    width: 100%;
+    padding: 1rem;
+  }
+  .inside #map-container {
+    height: 280px;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+  #restaurant-container,
+  #reviews-container {
+    width: 100%;
+    padding: 0;
+  }
+  #restaurant-cuisine {
+    width: 100%;
+    margin: 0;
+  }
+  #restaurant-img {
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  #restaurant-hours {
+    padding: 1rem;
+  }
+  #restaurant-name,
+  .inside h2 {
+    padding: 0 1rem;
+  }
+  #reviews-list {
+    padding: 1rem;
+  }
+  #reviews-list li {
+    width: auto;
+    padding: 1rem;
+  }
+
+  .inside header {
+    position: relative;
+  }
+  .inside #footer {
+    width: 100%;
+    position: relative;
+    padding: 1rem 0;
+  }
 }
