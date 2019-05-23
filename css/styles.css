@@ -65,6 +65,9 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+.breadcrumb-nav {
+  background: inherit;
+}
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
@@ -291,7 +294,7 @@ nav h1 a {
     width: 100%;
   }
   #breadcrumb {
-    width: 100%;
+    width: auto;
     padding: 1rem;
   }
   .inside #map-container {
